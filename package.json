@@ -1,6 +1,9 @@
 {
   "name": "fcc-file-meta",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.3.1"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +12,7 @@
   "author": "cmal",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.14.0",
     "multer": "^1.2.0"
   }
 }
